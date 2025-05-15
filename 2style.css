@@ -1,0 +1,66 @@
+
+*{ box-sizing: border-box;}
+
+header{
+    background-color: grey;
+    text-align: center;
+    padding: 100px;
+}
+
+section{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+
+section{
+    width: 30%;
+    float:left;
+    padding: 10px;
+}
+
+
+section{
+    width: 30%;
+    float:left;
+    padding: 10px
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: grey;
+    text-align: center;
+    padding:25px
+}
+
+.navbar ul{
+    background-color:greenyellow;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a{
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+.navbar :hover{
+    background-color: rgb(188, 13, 13);
+  }
+
+  @media(max-width:400px){
+    .header.title{
+        font-size: 1.5rem;
+    }
+  }
+
+  .header_link,
+  .header_btn{
+    font-size: 0.8rems;
+  }
+
+

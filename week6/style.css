@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+#hoverBox {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+#hoverBox:hover {
+  background-color: orange;
+}
+
+.tabContent {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background: #eee;
+}
+
+.tabContent.active {
+  display: block;
+}
+
+#secretBox {
+  margin: 10px 0;
+  padding: 20px;
+  background-color: #ddd;
+  transition: transform 0.5s ease;
+}
+
+#secretBox.secret {
+  transform: rotate(360deg);
+  background-color: gold;
+}
+
+input {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+#passwordFeedback {
+  font-size: 0.9em;
+  color: red;
+}
+
+  
+  
+      
